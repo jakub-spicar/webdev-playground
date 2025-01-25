@@ -1,0 +1,14 @@
+
+name: wdpg
+
+services:
+  web:
+    container_name: web_server
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ..:/app
+      - /app/node_modules

@@ -1,0 +1,27 @@
+# Závislosti
+node_modules/
+
+# Výstupní složka buildu
+dist/
+
+# Vite cache
+.vite/
+
+# Lokální proměnné prostředí
+.env.local
+.env.*.local
+
+# Logy
+*.log
+
+# Složky a soubory editoru
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Systémové soubory
+.DS_Store
+Thumbs.db
